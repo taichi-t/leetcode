@@ -1,10 +1,10 @@
 export default function groupAnagrams(strs: string[]): string[][] {
-  let map = new Map();
+  let map = new Map<string, string[]>();
   for (let str of strs) {
     const s = uniform(str);
-    let l = map.get(s) || [];
-    l.push(str);
-    map.set(s, l);
+    let arr = map.get(s) || [];
+    arr.push(str);
+    map.set(s, arr);
   }
   return Array.from(map.values()).sort();
 }
