@@ -1,7 +1,7 @@
 export default function intersectionOfTwoArrays(
   nums1: number[],
   nums2: number[]
-) {
+): number[] {
   let firstSet = new Set<number>();
   for (let num of nums1) {
     firstSet.add(num);
