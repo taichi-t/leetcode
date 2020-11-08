@@ -1,10 +1,9 @@
 export default function twoSum(nums: number[], target: number): number[] {
   const map = new Map<number, number>();
   for (let i = 0; i < nums.length; i++) {
-    let currVal: number = nums[i];
+    let currVal = nums[i];
     if (map.has(currVal)) {
-      console.log(map.get(currVal) as number, i);
-      return [map.get(currVal), i];
+      return [map.get(currVal) as number, i];
     }
     let diff = target - currVal;
     map.set(diff, i);
