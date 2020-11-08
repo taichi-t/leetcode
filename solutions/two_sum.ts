@@ -3,7 +3,7 @@ export default function twoSum(nums: number[], target: number): number[] {
   for (let i = 0; i < nums.length; i++) {
     let currVal = nums[i];
     if (map.has(currVal)) {
-      return [map.get(currVal) as number, i];
+      return [map.get(currVal)!, i];
     }
     let diff = target - currVal;
     map.set(diff, i);
