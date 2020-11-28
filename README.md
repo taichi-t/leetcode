@@ -40,7 +40,7 @@
 |  **_Dynamic Programming_**  |                                                                                                                                                       |                 |                 |
 |            paid             |                                               [Paint Fence](https://leetcode.com/problems/paint-fence/)                                               | :green_square:  |                 |
 |             300             |                            [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                            | :orange_square: |                 |
-|             53              |                                          [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                          | :green_square:  |                 |
+|             53              |                                          [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                          | :green_square:  | :man_shrugging: |
 |             62              |                                              [Unique Paths](https://leetcode.com/problems/unique-paths/)                                              | :orange_square: |                 |
 |             63              |                                           [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                           | :orange_square: |                 |
 |             198             |                                              [House Robber](https://leetcode.com/problems/house-robber/)                                              | :green_square:  |                 |
