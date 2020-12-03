@@ -6,7 +6,7 @@ export default function rob(nums: number[]): number {
     return nums[0]; // if there is only one house, return its value
   }
 
-  let runningTotal = [];
+  let runningTotal: number[] = [];
   /* the first index will be the same value as the first house since there are no decisions to make at this point */
   (runningTotal[0] = nums[0]),
     /* the second index will be the greater value of the first house or the second house */
